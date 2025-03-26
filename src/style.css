@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  @apply bg-gradient-to-b from-lime-950 to-lime-900;
+}
+
+body {
+  @apply bg-gray-50 shadow-lg shadow-lime-400/25;
+}
+
+html, body {
+  @apply w-full lg:w-sm;
+  @apply min-h-screen;
+  margin: 0 auto;
+}
+
