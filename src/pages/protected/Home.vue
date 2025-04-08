@@ -1,12 +1,12 @@
 <template>
     <div class="flex flex-col gap-4 relative">
         <!-- Background Header -->
-        <div class="absolute top-0 left-0 w-full h-60 bg-lime-200 z-0 rounded-b-2xl"></div>
+        <div class="absolute top-0 left-0 w-full h-64 bg-lime-600 z-0 rounded-b-lg"></div>
 
         <!-- Home Header -->
         <div class="flex justify-between items-center mt-2 mx-3 z-10">
             <div class="flex-shrink-0">
-                <RouterLink to="/profil" class="flex justify-center items-center bg-lime-600 hover:bg-lime-700 text-white rounded-xl p-2 shadow shadow-gray-500/5">
+                <RouterLink to="/profil" class="flex justify-center items-center bg-lime-700 hover:bg-lime-800/50 text-white rounded-xl p-2 shadow shadow-gray-500/5">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
                     </svg>
@@ -22,13 +22,13 @@
             </div>
         </div>
 
-        <div class="flex justify-between z-10 m-3.5">
+        <div class="flex justify-between z-10 m-3.5 text-white">
             <div class="flex-grow flex flex-col">
                 <h1>Halo <strong>Warga</strong>!</h1>
                 <p class="text-xs">Selamat datang di aplikasi <strong>Jadi Satu</strong><br />Grand Madani Residence 2</p>
             </div>
             <div class="flex-shrink-0">
-                <RouterLink to="/rumah-saya" class="text-xs rounded-2xl p-2 px-3 bg-lime-600 text-white flex items-center gap-x-1 hover:bg-lime-700">
+                <RouterLink to="/rumah-saya" class="text-xs rounded-2xl p-2 px-3 bg-lime-700 text-white flex items-center gap-x-1 hover:bg-lime-800/50">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                     </svg>
